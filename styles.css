@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Montserrat", sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+footer {
+  background-color: #ccc1ab;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 40px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+hr {
+  margin: 8px 0px;
+}
+
+header {
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ebe5d9;
+}
+
+.flag {
+  width: 40px;
+  height: 26px;
+}
+
+header a {
+  font-weight: 800;
+  text-decoration: none;
+  color: black;
+  margin: 0px 10px;
+}
+
+.hero {
+  padding: 40px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 66px;
+}
+
+.hero p {
+  font-style: italic;
+  text-decoration: wavy;
+  padding-top: 4px;
+  font-size: 18px;
+}
+
+.hero div {
+  width: 60%;
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.carne {
+  width: 260px;
+}
+
+.pasta {
+  width: 460px;
+}
+
+.prosciutto {
+  width: 240px;
+}
+
+.horarios {
+  background-color: #ebe5d9;
+  padding: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.horarios img {
+  width: 400px;
+}
+
+.horarios div h3 {
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.horarios div p {
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.menu {
+  background-color: #ccc1ab;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.menu h3 {
+  font-size: 50px;
+}
+
+.menu p {
+  font-size: 20px;
+  font-style: italic;
+  margin-top: 6px;
+  margin-bottom: 40px;
+}
+
+.menu_list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 60px;
+}
+
+.menu_item {
+  background-color: white;
+  width: 300px;
+  height: 360px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.menu div div img {
+  position: absolute;
+}
+
+.menu_list h6 {
+  font-style: oblique;
+  font-weight: 500;
+  font-size: 16px;
+  width: fit-content;
+  margin: 300px auto;
+}
+
+.mondongo {
+  width: 260px;
+  left: 20px;
+  top: 20px;
+}
+
+.rinones {
+  width: 260px;
+  left: 20px;
+  top: 20px;
+}
+
+.fusiles {
+  width: 260px;
+  left: 20px;
+  top: 20px;
+}
+
+.rabas {
+  width: 260px;
+  left: 20px;
+  top: 20px;
+}
+
+.flan {
+  width: 260px;
+  left: 20px;
+  top: 20px;
+}
+
+.helado {
+  width: 260px;
+  left: 20px;
+  top: 20px;
+}
